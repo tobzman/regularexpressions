@@ -32,20 +32,16 @@ The path component `([\/\w \.-]*)*\/?` deals with the URL path. The `([\/\w \.-]
 
 Let's explore some examples to understand how the regex works:
 
-- `https://www.example.com`: Matches a URL with HTTPS protocol, 'www' subdomain, and '.com' TLD.
-- `http://sub.example.org/path`: Matches a URL with HTTP protocol, 'sub' subdomain, '.org' TLD, and '/path' path.
-- `ftp://ftp.example.net`: Does not match since the regex expects HTTP or HTTPS protocols.
+- `https://www.freecodecamp.org`: Matches a URL with HTTPS protocol, 'www' subdomain, and '.com' TLD.
+- `https://www.freecodecamp.org/news`: Matches a URL with HTTP protocol, 'sub' subdomain, '.org' TLD, and '/path' path.
+- `https://www.chinese.freecodecamp.org`: Does not match since the regex expects HTTP or HTTPS protocols.
 - `https://sub.example.longtld`: Does not match due to the missing TLD characters.
 
 ## About the Author
 
 As a web development enthusiast, I'm passionate about sharing knowledge and helping others learn. Feel free to connect with me on GitHub for more tutorials and projects!
 
----
-
-You can copy and paste this content into a Markdown file for your project.
-
-**Step 3: Create a GitHub Gist**
+## Create a GitHub Gist**
 
 Now, you'll create a GitHub Gist to host your tutorial content:
 
@@ -56,7 +52,7 @@ Now, you'll create a GitHub Gist to host your tutorial content:
 - Ensure the Gist is set to "Public."
 - Click the "Create public gist" button.
 
-**Step 4: Submission**
+## Submission**
 
 You will need to provide the URL of your GitHub Gist as part of your assignment submission.
 
